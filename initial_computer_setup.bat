@@ -1,0 +1,1 @@
+PowerShell -NoProfile -NoExit -Command "& {Start-Process PowerShell -ArgumentList '-NoProfile -ExecutionPolicy Bypass -File %CD%\computer_setup_script.ps1' -Verb RunAs}"
